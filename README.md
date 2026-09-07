@@ -1,3 +1,5 @@
+[![Metrics](./github-metrics.svg)](https://github.com/Da-Hauge)
+
 ## Hi, I'm Max 👋
 
 IT administrator from Bavaria, Germany. I spend my days keeping Windows clients, servers
