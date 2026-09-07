@@ -33,10 +33,12 @@ Most of my work lives in private repos — if something here is useful to you, f
 
 ### Activity
 
-<a href="https://github.com/Da-Hauge">
-  <img alt="Contribution graph" src="https://ghchart.rshah.org/409ba5/Da-Hauge" width="100%">
-</a>
+<img alt="Contribution graph" src="./activity-dark.svg" width="100%">
 
 <a href="https://github.com/Da-Hauge">
   <img alt="Commit streak" src="https://streak-stats.demolab.com/?user=Da-Hauge&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D">
 </a>
+
+### Metrics
+
+[![Metrics](./github-metrics.svg)](https://github.com/Da-Hauge)
