@@ -1,0 +1,32 @@
+# Renders the dark-mode contribution grid embedded in README.md.
+#
+# Data is pulled from GitHub's GraphQL API and the SVG is committed into this
+# repo, so the README never depends on a third-party renderer being up.
+name: Activity graph
+
+on:
+  schedule: [{cron: "42 6 * * *"}]
+  workflow_dispatch:
+  push: {branches: [main, feat/dark-activity-graph]}
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render activity graph
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash .github/scripts/activity-svg.sh Da-Hauge activity-dark.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activity-dark.svg
+          git diff --staged --quiet && { echo "no change"; exit 0; }
+          git commit -m "Update activity graph"
+          git push
