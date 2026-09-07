@@ -31,14 +31,6 @@ of that job that shouldn't be done by hand twice.
 
 Most of my work lives in private repos — if something here is useful to you, feel free to open an issue.
 
-### Activity
-
-<img alt="Contribution graph" src="./activity-dark.svg" width="100%">
-
 <a href="https://github.com/Da-Hauge">
-  <img alt="Commit streak" src="https://streak-stats.demolab.com/?user=Da-Hauge&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D">
+  <img alt="Da-Hauge's total contributions and commit streak" src="https://streak-stats.demolab.com/?user=Da-Hauge&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D">
 </a>
-
-### Metrics
-
-[![Metrics](./github-metrics.svg)](https://github.com/Da-Hauge)
