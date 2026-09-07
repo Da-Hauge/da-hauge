@@ -7,7 +7,7 @@ name: Activity graph
 on:
   schedule: [{cron: "42 6 * * *"}]
   workflow_dispatch:
-  push: {branches: [main, feat/dark-activity-graph]}
+  push: {branches: [main]}
 
 jobs:
   render:
