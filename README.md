@@ -1,6 +1,4 @@
-[![Metrics](./github-metrics.svg)](https://github.com/Da-Hauge)
-
-## Hi, I'm Max 👋
+## Hi, I'm Maxi 👋
 
 IT administrator from Bavaria, Germany. I spend my days keeping Windows clients, servers
 and Active Directory environments running — and most of my free time automating the parts
@@ -8,7 +6,6 @@ of that job that shouldn't be done by hand twice.
 
 - 🔧 Mostly **PowerShell**: unattended Windows setup, software deployment, AD lifecycle tooling
 - 🖥️ Homelab on **Proxmox** with Docker/LXC, plus a few Raspberry Pis doing kiosk and display duty
-- 🚒 Volunteer firefighter — some of my projects come straight out of that world
 - 🌐 [haug-it.eu](https://haug-it.eu)
 
 ### Toolbox
